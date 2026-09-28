@@ -1,0 +1,14 @@
+[build]
+  publish = "."
+
+# Asegura que el archivo de verificación de Google se sirva como texto
+[[headers]]
+  for = "/google0c51c3eb86966136.html"
+  [headers.values]
+    Content-Type = "text/html"
+    X-Robots-Tag = "all"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"

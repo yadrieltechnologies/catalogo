@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Cambia TU-SITIO por tu URL real de Netlify cuando la tengas, ej:
+# Sitemap: https://tu-sitio.netlify.app/sitemap.xml
+Sitemap: https://TU-SITIO.netlify.app/sitemap.xml
